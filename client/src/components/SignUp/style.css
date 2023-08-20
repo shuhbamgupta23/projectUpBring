@@ -1,0 +1,36 @@
+.login_container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  background-color: #415c79;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 50%;
+  padding: 1rem;
+  margin: 0.5rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.buttons button {
+  font-size: larger;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border-radius: 900px;
+  border: none;
+  background-color: rgb(189, 208, 224);
+  color: #333;
+}
+
+.buttons button:hover {
+  background-color: rgb(109, 134, 155);
+  color: white;
+}

@@ -1,0 +1,88 @@
+.motor_main_container {
+  background-color: #ffabab;
+  padding-top: 1rem;
+}
+
+.motor_significance {
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 1rem;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+}
+
+.motor_significance h1 {
+  margin-bottom: 1rem;
+}
+
+.motor_significance li {
+  margin: 0 0.5rem 0 0.5rem;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffdddd;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.motor_container {
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  background-color: #ffabab;
+}
+.motor_form {
+  margin-top: 2rem;
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+.buttons {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.motor_header {
+  margin-top: 2rem;
+  width: 40%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.motor_ul li {
+  margin-top: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.motor_significance ul {
+  display: block;
+}
+
+.motor_significance ul li {
+  display: flex;
+  align-items: center;
+  padding: 2rem 10rem 2rem 10rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+.motor_significance ul li p:nth-child(even) {
+  font-size: 1.1rem;
+  margin-left: 2rem;
+}
+.motor_significance ul li p:nth-child(odd) {
+  font-size: 1.1rem;
+  margin-right: 2rem;
+}
+
+.motormetric_li img {
+  border-radius: 1rem;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}

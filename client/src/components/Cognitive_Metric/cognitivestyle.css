@@ -1,0 +1,39 @@
+.motor_main_container {
+  background-color: #ffabab;
+  padding-top: 1rem;
+}
+
+.cognitive_container {
+  display: flex;
+  height: 90vh;
+  align-items: start;
+  justify-content: space-around;
+  background-color: #ffabab;
+}
+
+.cognitive_form {
+  margin-top: 2rem;
+  box-shadow: 2px 5px 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  border-radius: 1rem;
+  padding: 2rem 3rem 2rem 3rem;
+  width: 40%;
+}
+
+.cognitive_label {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #ff8d8d;
+  color: white;
+}
+
+.select {
+  margin-top: 0.5rem;
+}
+
+.select select {
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+}
